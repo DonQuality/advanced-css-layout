@@ -8,10 +8,6 @@
   margin-top: 10em;
 }
 
-.bg-picture{
-  position: absolute;
-}
-
 .gallery{
   background-color: white;
   margin-top: 40em;
@@ -25,3 +21,5 @@
 .black-text{
   color: black;
 }
+
+

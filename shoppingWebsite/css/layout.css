@@ -9,11 +9,25 @@ header{
   left: 0;
 }
 
+.nav-flex-container {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: space-between;
+  align-items: flex-start;
+}
+
 .flex-container{
   display:flex;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.nav-images {
+  height: 10rem;
+  margin: 2rem;
 }
 
 .clearfix:after {
