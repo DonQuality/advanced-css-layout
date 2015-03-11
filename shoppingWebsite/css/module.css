@@ -1,0 +1,27 @@
+.company-logo{
+  font-family: 'Dancing Script';
+  font-size: 3.2em;
+  padding-bottom: .2em;
+}
+
+.gallery{
+  margin-top: 10em;
+}
+
+.bg-picture{
+  position: absolute;
+}
+
+.gallery{
+  background-color: white;
+  margin-top: 40em;
+}
+
+/*single responsability*/
+.grey-text{
+  color: grey;
+}
+
+.black-text{
+  color: black;
+}
