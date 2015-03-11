@@ -1,4 +1,8 @@
-.company-logo:hover{
+*{
+  transition: all .5s;
+}
+
+.pink-hover:hover{
   color: #FF5049;
-  transition: .5s;
+  cursor: pointer;
 }

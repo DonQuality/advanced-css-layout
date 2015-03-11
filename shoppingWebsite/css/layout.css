@@ -16,18 +16,20 @@ header{
   justify-content: center;
   align-content: space-between;
   align-items: flex-start;
+  text-align: center;
 }
 
 .flex-container{
   display:flex;
   justify-content: center;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .nav-images {
-  height: 10rem;
-  margin: 2rem;
+  width: 12%;
+  height: auto;
+  margin: 1em;
 }
 
 .clearfix:after {
@@ -44,6 +46,15 @@ header{
   position: absolute;
   top: 10em;
   z-index: 2;
+}
+
+.bg-pic-container{
+  margin-top: -1.2em;
+}
+
+footer{
+  height: 1em;
+  background-color: rgba(18, 24, 32, 0.98);
 }
 
 /*Grid System*/
@@ -119,10 +130,6 @@ header{
 .medium-pic{
   width: 20%;
   height: 20em;
-}
-
-.center{
-  text-align: center;
 }
 
 .full-view{
