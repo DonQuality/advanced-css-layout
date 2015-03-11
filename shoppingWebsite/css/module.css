@@ -11,6 +11,11 @@
 }
 
 .gallery{
+  margin-top: 10em;
+
+}
+
+.gallery{
   background-color: white;
 }
 
@@ -31,6 +36,7 @@
   color: black;
 }
 
+<<<<<<< HEAD
 .info-title{
   font-size: 3.5em;
   line-height: 1.2em;
@@ -39,3 +45,6 @@
 .white-text{
   color: white;
 }
+=======
+
+>>>>>>> cc1ca1ed45e6a6475be903fc9ce427b4315adba1
