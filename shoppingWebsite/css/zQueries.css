@@ -15,8 +15,14 @@
   }
 
   .bg-pic-container{
-    margin-top: 4em;
+    margin-top: 8em;
   }
+
+  .nav-images {
+    width: 10%;
+  }
+
+
 }
 
 

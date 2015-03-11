@@ -1,42 +1,27 @@
 .company-logo{
-  font-family: 'Dancing Script';
   font-size: 3.2em;
   padding: .3em;
   margin-left: .5em;
-}
-
-.navList{
-  margin-top: 2.2em;
-  margin-right: 1em;
-}
-
-.gallery{
-  margin-top: 10em;
-
-}
-
-.gallery{
-  background-color: white;
 }
 
 .title-button{
   margin-top: 2em;
   background-color: #FF5049;
   border: none;
-  width: 25%;
-  font-size: 1em;
+  width: 40%;
+  font-size: 1.3em;
   padding: 1em;
+}
+
+.navList{
+  font-size: 1.2em;
+  margin-top: 1.7em;
 }
 /*single responsability*/
 .grey-text{
   color: grey;
 }
 
-.black-text{
-  color: black;
-}
-
-<<<<<<< HEAD
 .info-title{
   font-size: 3.5em;
   line-height: 1.2em;
@@ -45,6 +30,8 @@
 .white-text{
   color: white;
 }
-=======
 
->>>>>>> cc1ca1ed45e6a6475be903fc9ce427b4315adba1
+h2{
+  font-size: 3em;
+  padding-bottom: .3em;
+}
