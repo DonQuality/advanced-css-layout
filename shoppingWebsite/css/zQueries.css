@@ -34,7 +34,7 @@
 /*MOBILE*//*MOBILE*//*MOBILE*//*MOBILE*/
 @media (max-width: 600px){
   .bg-pic-container{
-    margin-top: 6.5em;
+    margin-top: 5.9em;
   }
 
   .company-logo{
@@ -48,14 +48,17 @@
   }
 
   .info-title{
+    margin-bottom: .2em;
     font-size: 1em;
   }
 
   .title-button{
+    margin-top: -.2em;
     width: 100%;
   }
 
   .nav-images {
+    margin-top: 1em;
     height: 3em;
     width: 7%;
   }
