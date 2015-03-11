@@ -15,18 +15,63 @@
   }
 
   .bg-pic-container{
-    margin-top: 8em;
+    margin-top: 7.5em;
   }
 
   .nav-images {
     width: 10%;
   }
 
-
+  .medium-pic{
+    width: 20%;
+  }
+  footer{
+    height: 1.3em;
+  }
 }
 
 
 /*MOBILE*//*MOBILE*//*MOBILE*//*MOBILE*/
 @media (max-width: 600px){
+  .bg-pic-container{
+    margin-top: 6.5em;
+  }
+
+  .company-logo{
+    margin-left: 2.8em;
+    font-size: 2.1em;
+  }
+
+  .navList{
+    font-size: 1.1em;
+    margin-right: 3.1em;
+  }
+
+  .info-title{
+    font-size: 1em;
+  }
+
+  .title-button{
+    width: 100%;
+  }
+
+  .nav-images {
+    height: 3em;
+    width: 7%;
+  }
+
+  h2{
+    font-size: 1.8em;
+    padding-bottom: .5em;
+  }
+
+  .medium-pic{
+    width: 20%;
+    height: 10em;
+  }
+
+  footer{
+    height: 1.3em;
+  }
 }
 

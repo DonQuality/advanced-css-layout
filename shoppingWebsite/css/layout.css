@@ -30,7 +30,6 @@ header{
   width: 12%;
   height: auto;
   margin: 1em;
-  z-index: 200;
 }
 
 .clearfix:after {
@@ -127,10 +126,6 @@ header{
   height: 20em;
 }
 
-.center{
-  text-align: center;
-}
-
 .full-view{
   width: 100%;
 }
@@ -146,4 +141,9 @@ header{
 
 .title-img{
   z-index: -1;
+}
+
+footer{
+  height: 10em;
+  background-color: rgba(18, 24, 32, 0.98);
 }
