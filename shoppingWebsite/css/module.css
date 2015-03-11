@@ -1,22 +1,27 @@
 .company-logo{
   font-family: 'Dancing Script';
   font-size: 3.2em;
-  padding-bottom: .2em;
+  padding: .3em;
+  margin-left: .5em;
 }
 
-.gallery{
-  margin-top: 10em;
-}
-
-.bg-picture{
-  position: absolute;
+.navList{
+  margin-top: 2.2em;
+  margin-right: 1em;
 }
 
 .gallery{
   background-color: white;
-  margin-top: 40em;
 }
 
+.title-button{
+  margin-top: 2em;
+  background-color: #FF5049;
+  border: none;
+  width: 25%;
+  font-size: 1em;
+  padding: 1em;
+}
 /*single responsability*/
 .grey-text{
   color: grey;
@@ -24,4 +29,13 @@
 
 .black-text{
   color: black;
+}
+
+.info-title{
+  font-size: 3.5em;
+  line-height: 1.2em;
+}
+
+.white-text{
+  color: white;
 }

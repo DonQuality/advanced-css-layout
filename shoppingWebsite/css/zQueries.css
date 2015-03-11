@@ -5,6 +5,18 @@
 
 /*TABLET*//*TABLET*//*TABLET*//*TABLET*/
 @media (max-width: 1100px){
+  .info-title{
+    font-size: 1.5em;
+  }
+
+  .title-button{
+    font-size: 1em;
+    width: 70%;
+  }
+
+  .bg-pic-container{
+    margin-top: 4em;
+  }
 }
 
 
