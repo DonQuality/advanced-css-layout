@@ -1,0 +1,129 @@
+header{
+  background: rgba(18, 24, 32, 0.98);
+  z-index: 100;
+}
+
+.fixed{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.flex-container{
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.clearfix:after {
+  clear: both;
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+.service-info{
+  left: 4em;
+  position: absolute;
+  top: 10em;
+  z-index: 2;
+}
+
+/*Grid System*/
+@media only screen and (max-width: 480px) {
+  .span_3_of_3 {
+    width: 100%;
+  }
+  .span_2_of_3 {
+    width: 100%;
+  }
+  .span_1_of_3 {
+    width: 100%;
+  }
+}
+
+.span_3_of_3 {
+  width: 100%;
+}
+
+.span_2_of_3 {
+  width: 66.13%;
+}
+
+.span_1_of_3 {
+  width: 32.26%;
+}
+/*  GRID OF FOUR   ============================================================================= */
+.span_4_of_4 {
+  width: 100%;
+}
+
+.span_3_of_4 {
+  width: 74.6%;
+}
+
+.span_2_of_4 {
+  width: 49.2%;
+}
+
+.span_1_of_4 {
+  width: 23.8%;
+}
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+@media only screen and (max-width: 480px) {
+  .span_4_of_4 {
+    width: 100%;
+  }
+  .span_3_of_4 {
+    width: 100%;
+  }
+  .span_2_of_4 {
+    width: 100%;
+  }
+  .span_1_of_4 {
+    width: 100%;
+  }
+}
+/*single repsonsability*/
+.inline{
+  display: inline;
+}
+
+.float-left{
+  float: left;
+  margin-right: .1em;
+}
+
+.float-right{
+  float: right;
+  margin-left: .1em;
+}
+
+.medium-pic{
+  width: 20%;
+  height: 20em;
+}
+
+.center{
+  text-align: center;
+}
+
+.full-view{
+  width: 100%;
+}
+
+.center-box{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-grid{
+  text-align: center;
+}
+
+.title-img{
+  z-index: -1;
+}
