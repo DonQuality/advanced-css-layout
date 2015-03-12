@@ -69,6 +69,10 @@ h2{
   margin: 2em;
   display: inline-block;
 }
+
+.icon-list{
+  text-align: center;
+}
 /*ICOMOON*/
 
 @font-face {
