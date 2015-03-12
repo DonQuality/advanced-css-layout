@@ -11,7 +11,7 @@
   width: 40%;
   font-size: 1.3em;
   padding: 1em;
-  transition: background-color .4s;
+  transition: background-color .8s;
 }
 
 .navList{
@@ -27,7 +27,7 @@
   margin-top: 2em;
   margin-bottom: 1em;
 }
-/*single responsability*/
+/*single responsibility*/
 .grey-text{
   color: #7E7777;
 }
