@@ -22,12 +22,12 @@ header{
 .flex-container{
   display:flex;
   justify-content: center;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .nav-images {
-  width: 12%;
+  width: 9%;
   height: auto;
   margin: 1em;
 }
@@ -49,7 +49,8 @@ header{
 }
 
 .bg-pic-container{
-  margin-top: -1.2em;
+  top: 1em;
+  margin-top: -3.5em;
 }
 
 footer{
@@ -57,61 +58,10 @@ footer{
   background-color: rgba(18, 24, 32, 0.98);
 }
 
-/*Grid System*/
-@media only screen and (max-width: 480px) {
-  .span_3_of_3 {
-    width: 100%;
-  }
-  .span_2_of_3 {
-    width: 100%;
-  }
-  .span_1_of_3 {
-    width: 100%;
-  }
+.icon-nav-box{
+  margin-top: 3em;
 }
 
-.span_3_of_3 {
-  width: 100%;
-}
-
-.span_2_of_3 {
-  width: 66.13%;
-}
-
-.span_1_of_3 {
-  width: 32.26%;
-}
-/*  GRID OF FOUR   ============================================================================= */
-.span_4_of_4 {
-  width: 100%;
-}
-
-.span_3_of_4 {
-  width: 74.6%;
-}
-
-.span_2_of_4 {
-  width: 49.2%;
-}
-
-.span_1_of_4 {
-  width: 23.8%;
-}
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
-@media only screen and (max-width: 480px) {
-  .span_4_of_4 {
-    width: 100%;
-  }
-  .span_3_of_4 {
-    width: 100%;
-  }
-  .span_2_of_4 {
-    width: 100%;
-  }
-  .span_1_of_4 {
-    width: 100%;
-  }
-}
 /*single repsonsability*/
 .inline{
   display: inline;
@@ -146,5 +96,63 @@ footer{
 }
 
 .title-img{
+  top: 0;
   z-index: -1;
+  position: relative;
+}
+
+/*Grid System*/
+@media only screen and (max-width: 480px) {
+  .span_3_of_3 {
+    width: 100%;
+  }
+  .span_2_of_3 {
+    width: 100%;
+  }
+  .span_1_of_3 {
+    width: 100%;
+  }
+}
+
+.span_3_of_3 {
+  width: 100%;
+}
+
+.span_2_of_3 {
+  width: 66.13%;
+}
+
+.span_1_of_3 {
+  width: 32.26%;
+}
+/*  GRID OF FOUR  */
+.span_4_of_4 {
+  width: 100%;
+}
+
+.span_3_of_4 {
+  width: 74.6%;
+}
+
+.span_2_of_4 {
+  width: 49.2%;
+}
+
+.span_1_of_4 {
+  width: 23.8%;
+}
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+@media only screen and (max-width: 480px) {
+  .span_4_of_4 {
+    width: 100%;
+  }
+  .span_3_of_4 {
+    width: 100%;
+  }
+  .span_2_of_4 {
+    width: 100%;
+  }
+  .span_1_of_4 {
+    width: 100%;
+  }
 }

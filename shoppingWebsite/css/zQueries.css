@@ -11,11 +11,11 @@
 
   .title-button{
     font-size: 1em;
-    width: 70%;
+    width: 100%;
   }
 
   .bg-pic-container{
-    margin-top: 7.5em;
+    margin-top: 4em;
   }
 
   .nav-images {
@@ -26,56 +26,116 @@
     height: 12em;
     width: 20%;
   }
+
   footer{
     height: 1.3em;
   }
+
+  .marginT-B{
+    margin: 2em;
+  }
+
+  .center-grid{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }
 
 
 /*MOBILE*//*MOBILE*//*MOBILE*//*MOBILE*/
 @media (max-width: 600px){
+  header{
+    box-sizing: border-box;
+    padding: 1em;
+  }
+
+  .service-info{
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 9.5em;
+  }
+
   .bg-pic-container{
-    margin-top: 5.9em;
+    margin-top: 8em;
   }
 
   .company-logo{
-    margin-left: 2.8em;
+    margin-left: 2.5em;
     font-size: 2.1em;
   }
 
   .navList{
-    font-size: 1.1em;
-    margin-right: 3.1em;
+    margin-right: .8em;
+    font-size: 1.3em;
   }
 
   .info-title{
-    margin-bottom: .2em;
+    margin-top: 2em;
+    margin-left: 1em;
     font-size: 1em;
   }
 
   .title-button{
-    margin-top: -.2em;
+    left: 0; right: 0;
+    position: absolute;
+    margin-top: 4em;
     width: 100%;
+    padding: 1.5em;
   }
 
   .nav-images {
-    margin-top: 1em;
+    margin-top: 2.2em;
     height: 2em;
-    width: 6%;
+    width: 5%;
   }
 
   h2{
-    font-size: 1.8em;
+    font-size: 1.5em;
     padding-bottom: .5em;
   }
 
   .medium-pic{
+    margin-top: .2em;
     width: 20%;
-    height: 8em;
+    height: 7em;
   }
 
   footer{
     height: 1.3em;
+  }
+
+  .center-grid{
+    margin-top: -.4em;
+  }
+}
+/*/*iphone 4*/
+@media (max-width: 350px){
+  .nav-images {
+    margin-top: 2.2em;
+    height: 2em;
+    width: 5%;
+  }
+
+  .bg-pic-container{
+    margin-top: 7.5em;
+  }
+
+  .service-info{
+    margin-top: 11em;
+  }
+
+  .company-logo{
+    margin-left: 1.6em;
+  }
+  .navList{
+    margin-right: 1.8em;
+    font-size: 1em;
+  }
+  .title-button{
+    margin-top: 1em;
   }
 }
 
