@@ -1,6 +1,8 @@
 header{
+  box-sizing: border-box;
   background: rgba(45, 49, 55, 0.98);
   z-index: 100;
+  padding-right: .5em;
 }
 
 .fixed{
