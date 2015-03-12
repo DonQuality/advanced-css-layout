@@ -1,5 +1,5 @@
 header{
-  background: rgba(18, 24, 32, 0.98);
+  background: rgba(45, 49, 55, 0.98);
   z-index: 100;
 }
 
@@ -35,13 +35,13 @@ header{
   flex-wrap: nowrap;
 }
 
-.nav-images {
+.nav-images{
   width: 10%;
   height: auto;
-  margin: 1em;
+  margin: 1.1em;
 }
 
-.clearfix:after {
+.clearfix:after{
   clear: both;
   content: " ";
   display: block;
@@ -63,16 +63,15 @@ header{
 }
 
 footer{
-  color: white;
   display: flex;
   box-sizing: border-box;
   height: 1em;
   padding: 2.5em;
-  background-color: rgba(18, 24, 32, 0.98);
+  background-color: rgba(45, 49, 55, 0.98);
 }
 
 .icon-nav-box{
-  margin-top: 3em;
+  margin-top: 2em;
 }
 
 .vertical-align{
@@ -83,28 +82,18 @@ footer{
   align-items: center;
  }
 
-/*single repsonsability*/
+/*single repsonsibility*/
 .inline{
   display: inline;
 }
 
-.float-left{
-  float: left;
-  margin-right: .1em;
-}
-
-.float-right{
-  float: right;
-  margin-left: .1em;
-}
-
 .medium-pic{
-  width: 20vw;
+  width: 20%;
   height: 20em;
 }
 
 .full-view{
-  width: 100vw;
+  width: 100%;
 }
 
 .center-box{

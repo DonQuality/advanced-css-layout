@@ -19,12 +19,13 @@
   }
 
   .nav-images {
-    width: 9vw;
+    margin-top: 3em;
+    width: 9%;
   }
 
   .medium-pic{
     height: 12em;
-    width: 20vw;
+    width: 20%;
   }
 
   footer{
@@ -41,6 +42,10 @@
     margin-right: auto;
   }
 
+  .flex-container{
+    margin-top: -2em;
+  }
+
   .flex{
     display:flex;
     flex-direction: row;
@@ -50,7 +55,6 @@
     align-items: stretch;
   }
 }
-
 
 /*MOBILE*//*MOBILE*//*MOBILE*//*MOBILE*/
 @media (max-width: 600px){
@@ -93,9 +97,9 @@
   }
 
   .nav-images {
-    margin-top: 1.9em;
+    margin-top: 6em;
     height: 2em;
-    width: 5vw;
+    width: 5%;
   }
 
   h2{
@@ -105,7 +109,7 @@
 
   .medium-pic{
     margin-top: .2em;
-    width: 20vw;
+    width: 20%;
     height: 7em;
   }
 
@@ -125,14 +129,20 @@
     align-content: center;
     align-items: center;
   }
+
+  .flex-container{
+    margin-top: 0em;
+  }
+
 }
 
 /*/*iphone 4*/
 @media (max-width: 350px){
-  .nav-images {
-    margin-top: 2.2em;
-    height: 2em;
-    width: 5%;
+
+  .nav-images{
+    margin-top: 6em;
+    height: 1.5em;
+    width: 4%;
   }
 
   .bg-pic-container{
@@ -166,6 +176,10 @@
 
   .medium-pic{
     height: 4%;
+  }
+
+  .flex-container{
+    margin-top: 0em;
   }
 }
 
