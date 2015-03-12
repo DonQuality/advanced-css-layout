@@ -11,6 +11,7 @@
   width: 40%;
   font-size: 1.3em;
   padding: 1em;
+  transition: background-color .4s;
 }
 
 .navList{

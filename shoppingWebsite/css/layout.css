@@ -36,7 +36,7 @@ header{
 }
 
 .nav-images {
-  width: 9vw;
+  width: 10%;
   height: auto;
   margin: 1em;
 }
@@ -67,7 +67,7 @@ footer{
   display: flex;
   box-sizing: border-box;
   height: 1em;
-  padding: 2em;
+  padding: 2.5em;
   background-color: rgba(18, 24, 32, 0.98);
 }
 
@@ -176,3 +176,5 @@ footer{
     width: 100%;
   }
 }
+
+
