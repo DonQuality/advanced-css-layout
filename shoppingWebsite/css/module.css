@@ -61,4 +61,55 @@ h2{
 
 .copyrights{
   font-size: 1.2em;
+  display: block;
+  height: 1.5em;
+}
+
+.social-nav {
+  padding: .3em;
+  margin: 1em;
+  display: inline-block;
+
+}
+/*ICOMOON*/
+
+@font-face {
+  font-family: 'icomoon';
+  src:url('../icomoon/fonts/icomoon.eot?-el83e9');
+  src:url('../icomoon/fonts/icomoon.eot?#iefix-el83e9') format('embedded-opentype'),
+    url('../icomoon/fonts/icomoon.woff?-el83e9') format('woff'),
+    url('../icomoon/fonts/icomoon.ttf?-el83e9') format('truetype'),
+    url('../icomoon/fonts/icomoon.svg?-el83e9#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon-mail:before {
+  content: "\ea83";
+  font-size: 1.3em;
+  margin: .23em;
+}
+
+.icon-google:before {
+  content: "\ea87";
+  font-size: 1.3em;
+    margin: .23em;
+}
+
+.icon-facebook:before {
+  content: "\ea8c";
+  font-size: 1.3em;
+    margin: .23em;
+}
+
+.icon-instagram:before {
+  content: "\ea90";
+  font-size: 1.3em;
+    margin: .23em;
+}
+
+.icon-pinterest:before {
+  content: "\ead0";
+  font-size: 1.3em;
+    margin: .23em;
 }

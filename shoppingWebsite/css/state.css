@@ -1,4 +1,5 @@
 .pink-hover:hover{
   color: #FF5049;
   cursor: pointer;
+  transition: color .5s;
 }

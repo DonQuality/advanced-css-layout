@@ -57,8 +57,3 @@ body{
 	font-family: 'Quicksand', sans-serif;
 }
 
-.trans:hover{
-	cursor: pointer;
-	color: #FF5049;
-  transition: color .5s;
-}
