@@ -13,9 +13,8 @@
     margin-top: 4em;
   }
 
-  .nav-images {
-    margin-top: 3em;
-    width: 9%;
+  .nav-images{
+    margin-top: 4em;
   }
 
   .medium-pic{
@@ -96,12 +95,6 @@
     padding: 1.5em;
   }
 
-  .nav-images {
-    margin-top: 6em;
-    height: 2em;
-    width: 5%;
-  }
-
   h2{
     font-size: 1.5em;
     padding-bottom: .5em;
@@ -147,12 +140,12 @@
 @media (max-width: 350px){
 
   .nav-images{
-    margin-top: 6em;
-    width: 3%;
+    margin-top: 5em;
+
   }
 
   .bg-pic-container{
-    margin-top: 5.6em;
+    margin-top: 5em;
   }
 
   .service-info{
@@ -164,7 +157,7 @@
   }
 
   .title-button{
-    margin-top: 1.4em;
+    margin-top: 1.2em;
   }
 
   .flex{
