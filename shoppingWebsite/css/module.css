@@ -16,7 +16,7 @@
 .navList{
   font-size: 1.2em;
   margin-top: 1.5em;
-  margin-right: .5em;
+  margin-right: 1.4em;
 }
 
 .marginT-B{
@@ -56,4 +56,8 @@ h2{
 .wrapper{
   padding-top: 3em;
   background-color: white;
+}
+
+.copyrights{
+  font-size: 1.2em;
 }

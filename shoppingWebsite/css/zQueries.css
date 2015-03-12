@@ -19,12 +19,12 @@
   }
 
   .nav-images {
-    width: 9%;
+    width: 9vw;
   }
 
   .medium-pic{
     height: 12em;
-    width: 20%;
+    width: 20vw;
   }
 
   footer{
@@ -41,14 +41,22 @@
     margin-right: auto;
   }
 
+  .flex{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: space-around;
+    align-items: stretch;
+  }
 }
 
 
 /*MOBILE*//*MOBILE*//*MOBILE*//*MOBILE*/
 @media (max-width: 600px){
   header{
-    box-sizing: border-box;
-    padding: 1em;
+    height: 5em;
+    padding-bottom: .5em;
   }
 
   .service-info{
@@ -59,37 +67,35 @@
   }
 
   .bg-pic-container{
-    margin-top: 8em;
+    margin-top: 5em;
   }
 
   .company-logo{
-    margin-left: 2.9em;
+    margin: auto;
     font-size: 2.1em;
   }
 
   .navList{
-    margin-right: 1.3em;
+    margin: 0;
     font-size: 1.3em;
   }
 
   .info-title{
-    margin-top: 2em;
+    margin-top: 1em;
     margin-left: 1em;
     font-size: 1em;
   }
 
   .title-button{
-    left: 0; right: 0;
-    position: absolute;
-    margin-top: 4em;
+    margin-top: 2em;
     width: 100%;
     padding: 1.5em;
   }
 
   .nav-images {
-    margin-top: 2.2em;
+    margin-top: 1em;
     height: 2em;
-    width: 5%;
+    width: 5vw;
   }
 
   h2{
@@ -99,7 +105,7 @@
 
   .medium-pic{
     margin-top: .2em;
-    width: 20%;
+    width: 20vw;
     height: 7em;
   }
 
@@ -109,6 +115,15 @@
 
   .center-grid{
     margin-top: -.4em;
+  }
+
+  .flex{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
   }
 }
 /*/*iphone 4*/
@@ -120,22 +135,36 @@
   }
 
   .bg-pic-container{
-    margin-top: 7.5em;
+    margin-top: 5.6em;
   }
 
   .service-info{
     margin-top: 11em;
   }
 
-  .company-logo{
-    margin-left: 1.6em;
-  }
   .navList{
-    margin-right: 1.8em;
     font-size: 1em;
   }
+
   .title-button{
-    margin-top: 1em;
+    margin-top: 1.4em;
+  }
+
+  .flex{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+  }
+
+  .info-title{
+    margin-top: -.7em;
+  }
+
+  .medium-pic{
+    height: 4%;
   }
 }
 

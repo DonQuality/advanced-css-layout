@@ -12,23 +12,20 @@
     <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    <header class="full-view fixed">
-      <a href="index.html">
-        <h1 class="company-logo float-left pink-hover">Shopping</h1>
-      </a>
-      <ul class="float-right white-text navList">
-        <li class="inline pink-hover">about</li> |
-        <li class="inline pink-hover">shoes</li> |
-        <li class="inline pink-hover">women</li> |
-        <li class="inline pink-hover">login</li>
+    <header class="full-view fixed white-text flex">
+      <h1 class="company-logo trans">Shopping</h1>
+      <ul class="white-text navList">
+        <li class="inline trans">about</li> |
+        <li class="inline trans">shoes</li> |
+        <li class="inline trans">women</li> |
+        <li class="inline trans">login</li>
       </ul>
     </header>
     <div class="bg-pic-container">
-      <img id="image" class="full-view title-img" src="images/shop.png" alt="">
+      <img id="image" class="full-view title-img" src="images/shop.png" alt="title background picture">
     </div>
     <section class="service-info">
-      <h1 class="info-title">Free Delivery*<br> to over 100 Countries</h1>
-      <p></p>
+      <h1 class="info-title">Free Delivery*<br>to over 100 Countries</h1>
       <button id="button" class="title-button white-text">VIEW MORE</button>
     </section>
     <div class="wrapper">
@@ -38,7 +35,7 @@
           <li class="inline"><img class="nav-images" src="images/booticon.jpeg"/></li>
           <li class="inline"><img class="nav-images" src="images/womensheelicon.png"/></li>
           <li class="inline"><img class="nav-images" src="images/womensflaticon.png"/></li>
-          <a href="#menshoes"><li class="inline"><img class="nav-images" src="images/mensflaticon.png"/></li></a>
+          <li class="inline"><img class="nav-images" src="images/mensflaticon.png"/></li>
           <li class="inline"><img class="nav-images" src="images/sneakericon.png"/></li>
           <li class="inline"><img class="nav-images" src="images/sandalicon.png"/></li>
         </ul>
@@ -46,7 +43,7 @@
     </section>
     <div class="flex-container">
       <section class="center-grid marginT-B center-box">
-        <h2 class="grey-text">Todays top selling shoes</h2>
+        <h2 class="grey-text" id="girlshoes">Todays top selling shoes</h2>
         <img class="span_1_of_4 medium-pic" src="images/1.jpg">
         <img class="span_1_of_4 medium-pic" src="images/2.jpg">
         <img class="span_1_of_4 medium-pic" src="images/3.jpg">
@@ -69,8 +66,8 @@
       </section>
     </div>
     </div>
-    <footer class="white-text">
-      <p>&copy; 2015</p>
+    <footer class="vertical-align trans">
+      <p class="copyrights">&copy; 2015</p>
     </footer>
     <script src="javascript/jquery-1.11.2.min.js"></script>
     <script src="javascript/main.js"></script>

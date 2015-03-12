@@ -55,6 +55,10 @@ a:visited {
 
 body{
 	font-family: 'Quicksand', sans-serif;
-	text-align: center;
 }
 
+.trans:hover{
+	cursor: pointer;
+	color: #FF5049;
+  transition: color .5s;
+}
