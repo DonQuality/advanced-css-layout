@@ -24,28 +24,29 @@
       </ul>
     </header>
     <div class="bg-pic-container">
-      <img id="image" class="full-view title-img" src="images/cutmypic.png" alt="">
+      <img id="image" class="full-view title-img" src="images/shop.png" alt="">
     </div>
     <section class="service-info">
       <h1 class="info-title">Free Delivery*<br> to over 100 Countries</h1>
       <p></p>
-      <button class="title-button white-text">VIEW MORE</button>
+      <button id="button" class="title-button white-text">VIEW MORE</button>
     </section>
-    <section>
+    <div class="wrapper">
+    <section class="icon-nav-box">
       <nav class="nav-flex-container">
-        <ul>
+        <ul class="iconList">
           <li class="inline"><img class="nav-images" src="images/booticon.jpeg"/></li>
           <li class="inline"><img class="nav-images" src="images/womensheelicon.png"/></li>
           <li class="inline"><img class="nav-images" src="images/womensflaticon.png"/></li>
-          <li class="inline"><img class="nav-images" src="images/mensflaticon.png"/></li>
+          <a href="#menshoes"><li class="inline"><img class="nav-images" src="images/mensflaticon.png"/></li></a>
           <li class="inline"><img class="nav-images" src="images/sneakericon.png"/></li>
           <li class="inline"><img class="nav-images" src="images/sandalicon.png"/></li>
         </ul>
       </nav>
     </section>
     <div class="flex-container">
-      <section class="center-grid">
-        <h2 class="center">Todays top selling shoes</h2>
+      <section class="center-grid marginT-B center-box">
+        <h2 class="grey-text">Todays top selling shoes</h2>
         <img class="span_1_of_4 medium-pic" src="images/1.jpg">
         <img class="span_1_of_4 medium-pic" src="images/2.jpg">
         <img class="span_1_of_4 medium-pic" src="images/3.jpg">
@@ -54,7 +55,9 @@
         <img class="span_1_of_4 medium-pic" src="images/6.jpg">
         <img class="span_1_of_4 medium-pic" src="images/7.jpg">
         <img class="span_1_of_4 medium-pic" src="images/8.jpg">
-        <h2 class="center">Men shoes</h2>
+      </section>
+      <section class="center-grid marginT-B center-box">
+        <h2 class="marginTop grey-text" id="menshoes">Men shoes</h2>
         <img class="span_1_of_4 medium-pic" src="images/men1.jpg">
         <img class="span_1_of_4 medium-pic" src="images/men2.jpg">
         <img class="span_1_of_4 medium-pic" src="images/men3.jpg">
@@ -65,7 +68,8 @@
         <img class="span_1_of_4 medium-pic" src="images/men8.jpg">
       </section>
     </div>
-    <footer class="white-text center-grid">
+    </div>
+    <footer class="white-text">
       <p>&copy; 2015</p>
     </footer>
     <script src="javascript/jquery-1.11.2.min.js"></script>

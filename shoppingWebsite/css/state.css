@@ -1,6 +1,6 @@
-*{
+/**{
   transition: all .5s;
-}
+}*/
 
 .pink-hover:hover{
   color: #FF5049;

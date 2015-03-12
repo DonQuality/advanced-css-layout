@@ -15,15 +15,24 @@
 
 .navList{
   font-size: 1.2em;
-  margin-top: 1.7em;
-  margin-right: .2em;
+  margin-top: 1.5em;
+  margin-right: .5em;
+}
+
+.marginT-B{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  margin-bottom: 1em;
 }
 /*single responsability*/
 .grey-text{
-  color: grey;
+  color: #7E7777;
 }
 
 .info-title{
+  text-align: left;
   font-size: 3.5em;
   line-height: 1.2em;
 }
@@ -32,7 +41,19 @@
   color: white;
 }
 
+.iconList{
+  margin-top: -3em;
+}
+
 h2{
-  font-size: 3em;
-  padding-bottom: .3em;
+  position: absolute;
+  font-size: 2.5em;
+  left: 0; right: 0;
+  margin-top: .5em;
+  margin-bottom: 2em;
+}
+
+.wrapper{
+  padding-top: 3em;
+  background-color: white;
 }
