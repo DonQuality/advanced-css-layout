@@ -61,15 +61,13 @@ h2{
 
 .copyrights{
   font-size: 1.2em;
-  display: block;
-  height: 1.5em;
 }
 
-.social-nav {
+.social-nav{
+  text-align: center;
   padding: .3em;
-  margin: 1em;
+  margin: 2em;
   display: inline-block;
-
 }
 /*ICOMOON*/
 
