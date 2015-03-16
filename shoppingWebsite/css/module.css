@@ -116,3 +116,7 @@ button {
   font-size: 1.3em;
   margin: .23em;
 }
+
+.hide-mobile{
+  display: none;
+}
