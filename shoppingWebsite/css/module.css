@@ -9,6 +9,15 @@
   margin-bottom: .3em;
 }
 
+.navList li{
+  border-right: 1px solid white;
+  padding-right: .4em;
+}
+
+.navList li:last-child{
+  border: none;
+}
+
 button {
   background-color: #FF5049;
   width: 40%;
@@ -31,7 +40,8 @@ button {
   margin-bottom: 1em;
 }
 /*single responsibility*/
-.grey-text{
+.selling-title{
+  font-size: 2em;
   color: #7E7777;
 }
 
@@ -47,14 +57,6 @@ button {
 
 .iconList{
   margin-top: -3em;
-}
-
-h2{
-  position: absolute;
-  font-size: 2.5em;
-  left: 0; right: 0;
-  margin-top: .5em;
-  margin-bottom: 2em;
 }
 
 .wrapper{
@@ -78,9 +80,9 @@ h2{
   font-family: 'icomoon';
   src:url('../icomoon/fonts/icomoon.eot?-el83e9');
   src:url('../icomoon/fonts/icomoon.eot?#iefix-el83e9') format('embedded-opentype'),
-    url('../icomoon/fonts/icomoon.woff?-el83e9') format('woff'),
-    url('../icomoon/fonts/icomoon.ttf?-el83e9') format('truetype'),
-    url('../icomoon/fonts/icomoon.svg?-el83e9#icomoon') format('svg');
+  url('../icomoon/fonts/icomoon.woff?-el83e9') format('woff'),
+  url('../icomoon/fonts/icomoon.ttf?-el83e9') format('truetype'),
+  url('../icomoon/fonts/icomoon.svg?-el83e9#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -94,23 +96,23 @@ h2{
 .icon-google:before {
   content: "\ea87";
   font-size: 1.3em;
-    margin: .23em;
+  margin: .23em;
 }
 
 .icon-facebook:before {
   content: "\ea8c";
   font-size: 1.3em;
-    margin: .23em;
+  margin: .23em;
 }
 
 .icon-instagram:before {
   content: "\ea90";
   font-size: 1.3em;
-    margin: .23em;
+  margin: .23em;
 }
 
 .icon-pinterest:before {
   content: "\ead0";
   font-size: 1.3em;
-    margin: .23em;
+  margin: .23em;
 }
