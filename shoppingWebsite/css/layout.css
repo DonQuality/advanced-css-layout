@@ -1,6 +1,8 @@
 header{
-  background: rgba(18, 24, 32, 0.98);
+  box-sizing: border-box;
+  background: rgba(45, 49, 55, 0.98);
   z-index: 100;
+  padding-right: .5em;
 }
 
 .fixed{
@@ -9,28 +11,23 @@ header{
   left: 0;
 }
 
-.nav-flex-container {
+.flex{
   display:flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: center;
-  align-content: space-between;
-  align-items: flex-start;
+  justify-content: space-between;
+  align-content: space-around;
+  align-items: stretch;
 }
 
 .flex-container{
   display:flex;
   justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }
 
-.nav-images {
-  height: 10rem;
-  margin: 2rem;
-}
-
-.clearfix:after {
+.clearfix:after{
   clear: both;
   content: " ";
   display: block;
@@ -44,6 +41,60 @@ header{
   position: absolute;
   top: 10em;
   z-index: 2;
+}
+
+.bg-pic-container{
+  top: 1em;
+  margin-top: -3.5em;
+}
+
+footer{
+  display: flex;
+  box-sizing: border-box;
+  height: 1em;
+  padding: 2.5em;
+  background-color: rgba(45, 49, 55, 0.98);
+}
+
+.icon-nav-box{
+  margin-top: 2em;
+}
+
+.vertical-align{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+ }
+
+/*single repsonsibility*/
+.inline{
+  display: inline;
+}
+
+.medium-pic{
+  width: 20%;
+  height: 20em;
+}
+
+.full-view{
+  width: 100%;
+}
+
+.center-box{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-grid{
+  text-align: center;
+}
+
+.title-img{
+  top: 0;
+  z-index: -1;
+  position: relative;
 }
 
 /*Grid System*/
@@ -70,7 +121,7 @@ header{
 .span_1_of_3 {
   width: 32.26%;
 }
-/*  GRID OF FOUR   ============================================================================= */
+/*  GRID OF FOUR  */
 .span_4_of_4 {
   width: 100%;
 }
@@ -101,43 +152,49 @@ header{
     width: 100%;
   }
 }
-/*single repsonsability*/
-.inline{
-  display: inline;
-}
-
-.float-left{
-  float: left;
-  margin-right: .1em;
-}
-
-.float-right{
-  float: right;
-  margin-left: .1em;
-}
-
-.medium-pic{
-  width: 20%;
-  height: 20em;
-}
-
-.center{
-  text-align: center;
-}
-
-.full-view{
+/*  GRID OF SIX */
+.span_6_of_6 {
   width: 100%;
 }
 
-.center-box{
-  margin-left: auto;
-  margin-right: auto;
+.span_5_of_6 {
+    width: 83.06%;
 }
 
-.center-grid{
-  text-align: center;
+.span_4_of_6 {
+    width: 66.13%;
 }
 
-.title-img{
-  z-index: -1;
+.span_3_of_6 {
+    width: 49.2%;
 }
+
+.span_2_of_6 {
+    width: 32.26%;
+}
+
+.span_1_of_6 {
+    width: 15.33%;
+}
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+@media only screen and (max-width: 350px) {
+  .span_6_of_6 {
+    width: 100%;
+  }
+  .span_5_of_6 {
+    width: 100%;
+  }
+  .span_4_of_6 {
+    width: 100%;
+  }
+  .span_3_of_6 {
+    width: 100%;
+  }
+  .span_2_of_6 {
+    width: 100%;
+  }
+  .span_1_of_6 {
+    width: 100%;
+  }
+}
+

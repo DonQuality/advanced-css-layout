@@ -1,4 +1,14 @@
-.company-logo:hover{
+.pink-hover:hover{
   color: #FF5049;
-  transition: .5s;
+  cursor: pointer;
+  transition: color .5s;
+}
+
+span{
+  transition: color .5s;
+}
+
+button:active {
+  box-shadow: 0 2px 0 #006599;
+  transform: translateY(3px);
 }
